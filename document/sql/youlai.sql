@@ -11,7 +11,7 @@
  Target Server Version : 80023
  File Encoding         : 65001
 
- Date: 31/03/2021 14:52:57
+ Date: 31/03/2021 14:58:28
 */
 
 SET NAMES utf8mb4;
@@ -208,6 +208,7 @@ INSERT INTO `sys_menu` VALUES (41, '登录记录', 1, 'login_record', 'admin/rec
 INSERT INTO `sys_menu` VALUES (61, '一级菜单', 0, '/nested', 'Layout', '/nested/menu1/menu11', 'cascader', 1, 1, '2021-03-25 20:07:35', '2021-03-25 20:07:35');
 INSERT INTO `sys_menu` VALUES (62, '二级菜单', 61, 'menu1', 'nested/menu1/index', '/nested/menu1/menu11', 'cascader', 1, 1, '2021-03-25 20:08:41', '2021-03-25 20:08:41');
 INSERT INTO `sys_menu` VALUES (63, '三级菜单', 62, 'menu11', 'nested/menu1/menu11/index', '/nested/menu1/menu11', 'cascader', 1, 1, '2021-03-25 20:09:33', '2021-03-26 14:10:25');
+INSERT INTO `sys_menu` VALUES (65, '23', 0, '23234', 'Layout', '', '', 1, 1, '2021-03-31 14:55:41', '2021-03-31 14:55:41');
 
 -- ----------------------------
 -- Table structure for sys_permission
